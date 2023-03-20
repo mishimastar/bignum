@@ -1,0 +1,38 @@
+{
+  "name": "bignum",
+  "version": "0.1.0",
+  "description": "BigFloat implementation for NodeJS",
+  "main": "main.ts",
+  "scripts": {
+    "clean": "rimraf {tsconfig.tsbuildinfo,built}",
+    "pret": "prettier --write .",
+    "lint": "eslint .",
+    "compile": "tsc -p .",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishimastar/bignum.git"
+  },
+  "keywords": [
+    "bignum",
+    "bigint",
+    "nodejs",
+    "bigfloat"
+  ],
+  "author": "mishimastar",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "bugs": {
+    "url": "https://github.com/mishimastar/bignum/issues"
+  },
+  "homepage": "https://github.com/mishimastar/bignum#readme"
+}
